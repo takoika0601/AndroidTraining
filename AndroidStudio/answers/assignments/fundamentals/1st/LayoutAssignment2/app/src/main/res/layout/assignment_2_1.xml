@@ -21,7 +21,7 @@
             android:background="#ffffff"
             android:src="@drawable/ic_launcher" />
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignBottom="@+id/ImageView1"
@@ -31,17 +31,22 @@
             android:orientation="vertical" >
 
             <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView2"
+                android:background="#ff9630" />
+            <TextView
+                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"
-                android:background="#ff9630" />
-
+                android:layout_centerVertical="true"/>
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textView2"
                 android:background="#ffedc6" />
-        </LinearLayout>
+        </RelativeLayout>
     </RelativeLayout>
 
 </FrameLayout>
