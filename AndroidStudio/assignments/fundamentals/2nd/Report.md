@@ -9,6 +9,7 @@ Activity と Fragment
 ### Activity
 
 3. ライフサイクルのコールバックメソッドの呼び出し順
+
 起動時
 onCreate
 onStart
