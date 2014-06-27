@@ -4,7 +4,15 @@
     <string name="app_name">StringResourcePractice1</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+
     <!-- TODO: 実習1: ここから下に、日本語の String リソースを作る -->
+    <string name="resouse1">日本語リソース１</string>
+    <string name="resouse2">日本語リソース２</string>
+    <string name="resouse3">日本語リソース３</string>
+    <string name="resouse4">日本語リソース４</string>
+    <string name="resouse5">日本語リソース５</string>
+    
     <!-- TODO: 実習2: 日本語の String リソースに対応する英語リソースを作る -->
+    <!-- values-en/string.xmlに記述 -->
 
 </resources>
