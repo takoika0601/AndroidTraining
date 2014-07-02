@@ -8,13 +8,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <!-- TODO: この ImageView の背景として、作成した drawable を割当てる -->
-    <ImageView
-        android:background="@drawable/draw"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_centerInParent="true"
-
-            />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="State List Drawable"
+        android:background="@drawable/statelistdrawable"/>
 
 </RelativeLayout>
