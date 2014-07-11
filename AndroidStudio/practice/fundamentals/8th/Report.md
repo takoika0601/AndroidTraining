@@ -7,9 +7,33 @@ Practice Report for 2/8
 
 1. サンプルプロジェクト (ServiceSample) に、サービスのライフサイクルをログに出力する実装が格納されています。このプロジェクトをビルドし、ログがどのように表示されるかをレポートしてください。
 
+StartedService:
+onCreate
+onStartCommand
+onDestroy
+
+BoundService:
+oCreate
+onServiceConnected
+onUnbind
+onDestroy
+
+MyIntentService:
+onCreate
+onStartCommand
+onHandleIntent
+onDestroy
+
 ### Loader
 
 1. サンプルプロジェクト (LoaderSample) に、AsyncTaskLoader のライフサイクルをログに出力する実装が格納されています。このプロジェクトをビルドし、ログがどのように出力されているかをレポートしてください。
+
+onCreateLoader
+onStartLoading
+loadInBackground
+deliverResult
+onLoadFinished
+onStopLoading
 
 ### AsyncTask
 
