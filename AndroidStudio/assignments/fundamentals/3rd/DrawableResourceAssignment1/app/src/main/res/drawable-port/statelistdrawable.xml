@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 横画面におけるState List Drawable -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Buttonが押されていないときのDrawable -->
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <solid android:color="#ff011f"/>
+        </shape>
+    </item>
+
+
+    <!-- Buttonが押されたときのDrawable -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#ffffffff"/>
+        </shape>
+    </item>
+
+    <!-- ButtonにフォーカスがあたったときのDrawable -->
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#00f1ff"/>
+        </shape>
+    </item>
+</selector>
